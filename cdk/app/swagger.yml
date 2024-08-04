@@ -1,0 +1,45 @@
+openapi: "3.0.3"
+
+info:
+  title: "サンプルAPI"
+  version: "1.0.0"
+
+paths:
+  "/message":
+    get:
+      responses:
+        "200":
+          description: "GET TEST"
+          content:
+            application/json:
+              schema:
+                type: string
+                example: "Hello World !"
+    delete:
+      responses:
+        "200":
+          description: "DELETE TEST"
+          content:
+            application/json:
+              schema:
+                type: string
+                example: "Hello World !"
+  "/hello":
+    get:
+      responses:
+        "200":
+          description: "GET TEST"
+          content:
+            application/json:
+              schema:
+                type: string
+                example: "Hello World !"
+    delete:
+      responses:
+        "200":
+          description: "DELETE TEST"
+          content:
+            application/json:
+              schema:
+                type: string
+                example: "Hello World !"
